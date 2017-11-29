@@ -1,0 +1,65 @@
+[
+    {
+      "id": 1,
+      "title": "RED Life",
+      "url": "https://reddir.herokuapp.com/",
+      "git_url": "https://github.com/jeanmaried/RED-Book",
+      "pictures": ["./assets/redlife.png", "CSS", "React.js", "Meteor"],
+      "ask":
+      "Design and build a real-time JavaScript web application as a group.  The social media app should allow students and staff at RED Academy to share their ideas/posts.  Registered members should be able to edit their profile, post ideas and vote on ideas.",
+      "result":
+      "The web application was built using Meteor as a platform. React was used as the rendering library.  Data was stored using MongoDB as the database. Group performance was optimized by using Git for version control and collaboration. Hosted on Heroku.",
+      "tools": ["React.js", "Meteor", "MongoDB", "JSX", "CSS"]
+    },
+    {
+        "id": 2,
+        "title": "R10 Conference App",
+        "url": "https://github.com/mahreenq/React-Native-R10-App",
+        "git_url": "https://github.com/mahreenq/React-Native-R10-App",
+        "pictures": ["./assets/redlife.png", "CSS", "React.js", "Meteor"],
+        "ask":
+        "Use provided designs to build a cross-platform (iOS and Android) app for an upcoming conference.  Through the app, users should be able to see details of the schedule, individual sessions, and speakers.  Users should also be able to save individual sessions under a favourite tab for easy access.",
+        "result":
+        "React Native was used to build the app.  All data was fetched through Firebase API endpoints.  Redux is applied to manage state and Realm is used as a database to store ‘favourite’ sessions.",
+        "tools": ["React Native","CSS", "Realm"]
+      },
+      {
+        "id": 3,
+        "title": "Mars React App - First React Project",
+        "url": "http://marsmq65.herokuapp.com/",
+        "git_url": "https://github.com/mahreenq/Mars-Web-App-React",
+        "pictures": ["./assets/redlife.png", "CSS", "React.js", "Meteor"],
+        "ask":
+        "Design and build a fictional sci-fi web application where users of different occupations are able to log in, post their encounter with an ‘alien type’ and also view other member’s encounters.",
+        "result":
+        "This was my first web application built using React. GET and POST HTTP requests are made using Axios. Hosted on Heroku.",
+        "tools": ["JSX", "CSS3", "React.js"]
+      },
+      {
+        "id": 4,
+        "title": "News Feed - New York Times",
+        "url": "https://github.com/mahreenq/NYT-API",
+        "git_url": "https://github.com/mahreenq/NYT-API",
+        "pictures": ["./assets/redlife.png", "CSS", "React.js", "Meteor"],
+        "ask":
+        "Use provided designs to build a page that displays a dropdown with news categories.  Upon selection of a category, feed from New York Times should display. Page should be responsive for mobile, tablet and desktop.",
+        "result":
+        "Used AJAX requests to display feed from New York Times API. Media queries added to make page responsive. ",
+        "tools": ["Javascript", "JQuery", "HTML5", "SASS"]
+      },
+      {
+        "id": 5,
+        "title": "GTA Toothfairy",
+        "url": "http://www.gtatoothfairy.com/",
+        "git_url": "https://github.com/jeanmaried/Tooth-fairy-wordpress-site",
+        "pictures": ["./assets/redlife.png", "CSS", "React.js", "Meteor"],
+        "ask":
+        "In collaboration with UI/UX team, build a Wordpress theme for a client wishing to re-vamp their website and make it more user-friendly.",
+        "result":
+        "Full-stack social media application built in house for RED Academy. Allowing students to get to know each other, vote for upcoming event themes, staff announcements or random posts.",
+        "description":
+          "Used PHP to build Wordpress theme in a team environment. Research was done to ensure the best-suited plugins were used. Group performance was optimized by using Git for version control and collaboration. I was given the role of Client Lead which included additional duties of being in constant communication with the client and presenting the final product.",
+        "tools": [ "WordPress", "PHP", "HTML", "SASS", "Gulp"]
+      }
+
+  ]
