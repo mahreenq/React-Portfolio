@@ -1,5 +1,5 @@
 .singleProject{
-    width: 80%;
+    width: 85%;
     margin: 0.5rem;
     font-family: Raleway;
   }
@@ -8,35 +8,46 @@
       font-size: 1.2em;
   }
 
-  .purpleFont{
-    color:#542D48 !important;
+  .whiteFont{
+    color:#EEEEEE !important;
     font-size: 2rem !important;
+  }
 
+  .tealFont{
+      color: #1DE9B6!important;
+      font-size: 1.2em !important;
+  }
+
+  .greyFont{
+    color: #9E9E9E !important;
+    font-size: 1.2rem !important;
   }
   
   @media only screen  /*Tablet */
   and (min-width:600px )
   and (max-width:1000px) {
     .singleProject{
-      width: 45%;
+      width: 48%;
     }
   }
   
   @media only screen /*DESKTOP */
   and (min-width:1000px) {
       .singleProject {
-          width: 30% ;
+          width: 31% ;
       }
   }
 
   .projectImage{
       width: 30%;
+      border-radius: 10px;
   }
 
   .singlePortfolioImage{
       height: 100%;
       background-position: top;
       background-size: cover;
+      border-radius: 20px;
 
   }
 

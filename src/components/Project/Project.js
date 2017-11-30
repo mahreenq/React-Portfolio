@@ -5,7 +5,7 @@ import FlatButton from 'material-ui/FlatButton';
 import {BrowserRouter, Route, Switch, Link, Redirect, NavLink } from 'react-router-dom';
 import IconButton from 'material-ui/IconButton';
 
-import { Carousel } from 'react-responsive-carousel';
+import  FontAwesome from 'react-fontawesome';
 import styles from 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 
@@ -44,14 +44,15 @@ const Project = ({project}) => {
 
 
               <CardText style={style.description}>
-              <span className="boldHeading">ASK:</span> {project.ask}
+              <span className="greyFont">ASK:</span> {project.ask}
               </CardText>
               <CardText style={style.description}>
-                <span className="boldHeading">FINISHED PRODUCT:</span> {project.result}
+                <span className="greyFont">FINISHED PRODUCT:</span> {project.result}
               </CardText>
               <CardActions style={style.buttons}>
-                {project.git_url ? <IconButton href={project.git_url} iconClassName="fa fa-github  purpleFont" />  : null}
-                {project.url  ?  <IconButton href={project.url} iconClassName="fa fa-external-link purpleFont" /> : null }
+                {project.git_url ? <a style={style.buttons} href={project.git_url}><FontAwesome name=' fa-github' /> </a>
+                  : null}
+                {project.url  ? <a style={style.buttons} href={project.url}> <FontAwesome name=' fa-external-link' /> </a> : null }
               </CardActions>
           </Card>
 
@@ -60,6 +61,7 @@ const Project = ({project}) => {
       
    };
   
+  
   export default Project;
 
 
@@ -67,7 +69,7 @@ const Project = ({project}) => {
     projectCard: {
       borderRadius: 50, 
       padding : 20, 
-      backgroundColor: '#A7BFBC', 
+      backgroundColor: '#21021A', 
       border: 'none',
       margin: 5,
       fontFamily: 'Raleway',
@@ -75,30 +77,26 @@ const Project = ({project}) => {
     title:{
       fontSize: '1.8em', 
       fontWeight: 500,
-      color:'#542D48',
+      color:'#9E9E9E',
       
     },
     tools:{
       fontSize: '1.1em', 
       fontWeight: 500,
+      color:'#1DE9B6',
     },
     description:{
       fontSize: '1.1em',
       lineHeight: 1.5,
+      color:'#EEEEEE',
+      
     },
     buttons:{
       display: 'flex',
       justifyContent: 'space-around',
-      color:'#542D48',
+      color:'#1DE9B6',
+      fontSize: '1.5em',
+      textDecoration: 'none',
     }
   };
 
-  // {project.pictures.length > 0 ? 
-    
-  //                 <div className="my-carousel">
-  //                      {project.pictures.map((picture)=>{
-  //                           return <img className="projectImage" src={picture}/>
-  //                         })} 
-  //                </div> 
-              
-  //             : null }

@@ -9,20 +9,20 @@ const styles = {
     width: '80%', 
     borderRadius: 100, 
     padding : 20, 
-    backgroundColor: '#A7BFBC', 
+    backgroundColor: '#21021A', 
     border: 'none'
   },
   aboutText: {
     padding: 15, 
     textAlign: 'center', 
-    color: '#542D48', 
+    color: '#1DE9B6', 
     fontSize: '1em' , 
     fontFamily: 'Raleway'
   },
   aboutToolbox: {
     padding: 15, 
     textAlign: 'center', 
-    color: '#542D48', 
+    color: '#BDBDBD', 
     fontSize: '1em' , 
     fontFamily: 'Raleway', 
     display:'flex', 
@@ -55,7 +55,7 @@ class About extends Component {
               </CardText>
 
 
-              <CardText style = {{padding: 15, textAlign: 'center', color: '#542D48', fontSize: '1.2em' , fontFamily: 'Raleway'}}>
+              <CardText style = {{padding: 15, textAlign: 'center', color: '#EEEEEE', fontSize: '1.2em' , fontFamily: 'Raleway'}}>
               Current Toolbox 
               </CardText>
 
