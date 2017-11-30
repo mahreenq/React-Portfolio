@@ -34,7 +34,7 @@ const Project = ({project}) => {
                         const background = {
                           backgroundImage: 'url('+ picture + ')',
                       }
-                    return  <a className = "singlePortfolioLink" href={picture}><div className = "singlePortfolioImage"  style={background}> </div> </a>;
+                    return  <a className = "singlePortfolioLink" target="_blank" href={picture}><div className = "singlePortfolioImage"  style={background}> </div> </a>;
                   })}
                 </div>
           
