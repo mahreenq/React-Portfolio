@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './styles.css';
 
-import {Card,  CardMedia, CardTitle, CardText} from 'material-ui/Card';
+import {Card,  CardText} from 'material-ui/Card';
 
 
 const styles = {
@@ -43,7 +43,7 @@ class About extends Component {
       return (
         <div className="aboutPage">
      
-          <Card className="aboutCard"style={styles.aboutCard}>
+          <Card className="aboutCard" style={styles.aboutCard}>
               <CardText style = {styles.aboutText}>
               Hey There! Thanks for dropping by! I am a motivated web developer seeking opportunities to build innovative products. 
               </CardText>
@@ -70,19 +70,19 @@ class About extends Component {
 
 
               <CardText style = {styles.aboutToolbox}>
-                <div class="singleToolbox"> <i class="devicon-php-plain toolboxIcon"></i>PHP</div>
-                <div class="singleToolbox"> <i class="devicon-wordpress-plain toolboxIcon"></i> Wordpress</div>
-                <div class="singleToolbox"> <i class="devicon-github-plain  toolboxIcon"></i>Github</div>
-                <div class="singleToolbox"> <i class="devicon-gulp-plain toolboxIcon"></i>Gulp</div>
-                <div class="singleToolbox"> <i class="devicon-react-original toolboxIcon"></i>React</div>
+                <div className="singleToolbox"> <i className="devicon-php-plain toolboxIcon"></i>PHP</div>
+                <div className="singleToolbox"> <i className="devicon-wordpress-plain toolboxIcon"></i> Wordpress</div>
+                <div className="singleToolbox"> <i className="devicon-github-plain  toolboxIcon"></i>Github</div>
+                <div className="singleToolbox"> <i className="devicon-gulp-plain toolboxIcon"></i>Gulp</div>
+                <div className="singleToolbox"> <i className="devicon-react-original toolboxIcon"></i>React</div>
               </CardText>
 
               <CardText style = {styles.aboutToolbox}>
-                <div class="singleToolbox"> <i class="devicon-nodejs-plain toolboxIcon"></i>Node.js</div>
-                <div class="singleToolbox"> <i class="devicon-express-original toolboxIcon"></i>Express</div>
-                <div class="singleToolbox"> <i class="devicon-postgresql-plain toolboxIcon"></i>PostgreSQL</div>
-                <div class="singleToolbox"> <i class="devicon-mongodb-plain toolboxIcon"></i>MongoDB</div>  
-                <div class="singleToolbox"> <i class="devicon-meteor-plain toolboxIcon"></i>Meteor</div>         
+                <div className="singleToolbox"> <i className="devicon-nodejs-plain toolboxIcon"></i>Node.js</div>
+                <div className="singleToolbox"> <i className="devicon-express-original toolboxIcon"></i>Express</div>
+                <div className="singleToolbox"> <i className="devicon-postgresql-plain toolboxIcon"></i>PostgreSQL</div>
+                <div className="singleToolbox"> <i className="devicon-mongodb-plain toolboxIcon"></i>MongoDB</div>  
+                <div className="singleToolbox"> <i className="devicon-meteor-plain toolboxIcon"></i>Meteor</div>         
               </CardText>
           </Card>
 

@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
 import './App.css';
 import { HashRouter, Route, Switch } from 'react-router-dom';
-import getMuiTheme from 'material-ui/styles/getMuiTheme';
+// import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+
+import { Provider } from 'react-redux'
+import store from './redux/store';
 
 import Layout from './components/Layout';
 import Home from './components/Home';
 import About from './components/About';
-import Projects from './components/Projects';
+//import Project from './components/Project';
+import Projects from './containers/Projects';
 import Resume from './components/Resume';
 import NotFound from './components/NotFound';
 
@@ -22,6 +26,7 @@ class App extends Component {
   render() {
     return (
       <HashRouter>
+         <Provider store={store}>
         <MuiThemeProvider >
             <Layout>
               <Switch>
@@ -32,7 +37,9 @@ class App extends Component {
                 <Route component={NotFound} />
               </Switch>
             </Layout>
+            
             </MuiThemeProvider>
+            </Provider>
       </HashRouter>
     );
   }

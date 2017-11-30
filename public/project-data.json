@@ -4,7 +4,7 @@
       "title": "RED Life",
       "url": "https://reddir.herokuapp.com/",
       "git_url": "https://github.com/jeanmaried/RED-Book",
-      "pictures": ["./assets/redlife.png", "CSS", "React.js", "Meteor"],
+      "pictures": ["https://image.ibb.co/kvFGHw/Screenshot_2017_11_30_12_21_23.png","https://preview.ibb.co/kMUMjb/Screenshot_2017_11_30_12_30_44.png", "https://image.ibb.co/n11Z4b/Screenshot_2017_11_30_12_31_53.png"],
       "ask":
       "Design and build a real-time JavaScript web application as a group.  The social media app should allow students and staff at RED Academy to share their ideas/posts.  Registered members should be able to edit their profile, post ideas and vote on ideas.",
       "result":
@@ -14,9 +14,9 @@
     {
         "id": 2,
         "title": "R10 Conference App",
-        "url": "https://github.com/mahreenq/React-Native-R10-App",
+        "url": null ,
         "git_url": "https://github.com/mahreenq/React-Native-R10-App",
-        "pictures": ["./assets/redlife.png", "CSS", "React.js", "Meteor"],
+        "pictures": ["https://image.ibb.co/k9AiEb/About_scene_1.png", "https://image.ibb.co/hx2wZb/Speaker_scene_2.png", "https://image.ibb.co/dZ610G/Session_scene.png"],
         "ask":
         "Use provided designs to build a cross-platform (iOS and Android) app for an upcoming conference.  Through the app, users should be able to see details of the schedule, individual sessions, and speakers.  Users should also be able to save individual sessions under a favourite tab for easy access.",
         "result":
@@ -28,7 +28,7 @@
         "title": "Mars React App - First React Project",
         "url": "http://marsmq65.herokuapp.com/",
         "git_url": "https://github.com/mahreenq/Mars-Web-App-React",
-        "pictures": ["./assets/redlife.png", "CSS", "React.js", "Meteor"],
+        "pictures": ["https://preview.ibb.co/i4g4nw/Screenshot_2017_11_30_14_00_12.png", "https://preview.ibb.co/cy1Fub/Screenshot_2017_11_30_14_02_04.png", "https://preview.ibb.co/cGgR0G/Screenshot_2017_11_30_14_01_43.png"],
         "ask":
         "Design and build a fictional sci-fi web application where users of different occupations are able to log in, post their encounter with an ‘alien type’ and also view other member’s encounters.",
         "result":
@@ -38,9 +38,9 @@
       {
         "id": 4,
         "title": "News Feed - New York Times",
-        "url": "https://github.com/mahreenq/NYT-API",
+        "url": null,
         "git_url": "https://github.com/mahreenq/NYT-API",
-        "pictures": ["./assets/redlife.png", "CSS", "React.js", "Meteor"],
+        "pictures": ["https://preview.ibb.co/gYzw0G/Screenshot_2017_11_30_14_05_55.png","https://preview.ibb.co/kcnASw/Screenshot_2017_11_30_14_10_02.png", "https://preview.ibb.co/d4xG0G/Screenshot_2017_11_30_14_06_13.png"],
         "ask":
         "Use provided designs to build a page that displays a dropdown with news categories.  Upon selection of a category, feed from New York Times should display. Page should be responsive for mobile, tablet and desktop.",
         "result":
@@ -52,7 +52,7 @@
         "title": "GTA Toothfairy",
         "url": "http://www.gtatoothfairy.com/",
         "git_url": "https://github.com/jeanmaried/Tooth-fairy-wordpress-site",
-        "pictures": ["./assets/redlife.png", "CSS", "React.js", "Meteor"],
+        "pictures": ["https://preview.ibb.co/ctrb0G/Screenshot_2017_11_30_14_12_06.png","https://preview.ibb.co/kG0Qub/Screenshot_2017_11_30_14_12_25.png", "https://preview.ibb.co/dUbyEb/Screenshot_2017_11_30_14_12_54.png" ],
         "ask":
         "In collaboration with UI/UX team, build a Wordpress theme for a client wishing to re-vamp their website and make it more user-friendly.",
         "result":

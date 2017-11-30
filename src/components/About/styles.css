@@ -34,6 +34,6 @@ and (max-width:1000px) {
 @media only screen
 and (min-width:1000px) {
     .aboutCard {
-        width: 60% !important;
+        width: 40% !important;
     }
 }

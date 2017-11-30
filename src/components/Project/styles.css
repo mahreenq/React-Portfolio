@@ -1,0 +1,55 @@
+.singleProject{
+    width: 80%;
+    margin: 0.5rem;
+    font-family: Raleway;
+  }
+  .boldHeading{
+      font-weight: 500;
+      font-size: 1.2em;
+  }
+
+  .purpleFont{
+    color:#542D48 !important;
+    font-size: 2rem !important;
+
+  }
+  
+  @media only screen  /*Tablet */
+  and (min-width:600px )
+  and (max-width:1000px) {
+    .singleProject{
+      width: 45%;
+    }
+  }
+  
+  @media only screen /*DESKTOP */
+  and (min-width:1000px) {
+      .singleProject {
+          width: 30% ;
+      }
+  }
+
+  .projectImage{
+      width: 30%;
+  }
+
+  .singlePortfolioImage{
+      height: 100%;
+      background-position: top;
+      background-size: cover;
+
+  }
+
+  .singlePortfolioLink{
+    height: 100%;
+    width: 30%;
+    background-size: cover;
+    background-position: top;
+  }
+
+  .portfolioImages{
+      height: 100px;
+      display: flex;
+      justify-content: space-around;
+
+  }
