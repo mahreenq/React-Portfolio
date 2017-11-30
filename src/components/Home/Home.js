@@ -8,12 +8,9 @@ class Home extends Component {
       window.scrollTo(0, 0);
     }
   
-
-  
     render() {
       return (
         <div className="homePage">
-
               <h1 className="nameHomePage">Mahreen Qureshi</h1>
               <h4 className="wdHomePage"> Web Developer </h4>
 
@@ -22,6 +19,5 @@ class Home extends Component {
     }
   }
   
-
   
   export default Home;

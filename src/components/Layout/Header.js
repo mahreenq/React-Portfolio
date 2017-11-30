@@ -9,13 +9,11 @@ class Header extends Component {
     render() {
       return (
         <div className="header">
-        <div className= "nav">
-        <Link to='/home' >HOME</Link>
-        <Link to='/about' >ABOUT</Link>
-        <Link to='/showcase' >SHOWCASE</Link>
-        
-        </div>
-
+          <div className= "nav">
+            <Link to='/' >HOME</Link>
+            <Link to='/about' >ABOUT</Link>
+            <Link to='/showcase' >SHOWCASE</Link>
+          </div>
         </div>
       );
     }

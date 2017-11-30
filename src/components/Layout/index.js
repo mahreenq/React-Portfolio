@@ -9,12 +9,16 @@ class Layout extends Component {
   render() {
     return (
       <div>
-        {this.props.location.pathname == '/' ? null : <Header />}
+     <Header />
         {this.props.children}
-        {this.props.location.pathname == '/' ? null : <Footer />}
+         <Footer />
       </div>
     );
   }
 }
 
 export default withRouter(Layout);
+
+// {this.props.location.pathname == '/' ? null : <Header />}
+// {this.props.children}
+// {this.props.location.pathname == '/' ? null : <Footer />}

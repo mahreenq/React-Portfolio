@@ -10,7 +10,6 @@ import store from './redux/store';
 import Layout from './components/Layout';
 import Home from './components/Home';
 import About from './components/About';
-//import Project from './components/Project';
 import Projects from './containers/Projects';
 import Resume from './components/Resume';
 import NotFound from './components/NotFound';
@@ -30,7 +29,7 @@ class App extends Component {
         <MuiThemeProvider >
             <Layout>
               <Switch>
-                <Route exact path="/home" component={Home} />
+                <Route exact path="/" component={Home} />
                 <Route exact path="/about" component={About} />
                 <Route exact path="/showcase" component={Projects} />
                 <Route exact path="/resume" component={Resume} />
