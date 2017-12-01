@@ -69,7 +69,7 @@
   }
 
 
-  @media only screen  /*Tablet */
+  @media only screen  /*Mobile Larger */
   and (min-width:375px )
   and (max-width:600px) {
 

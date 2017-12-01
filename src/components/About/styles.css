@@ -1,10 +1,15 @@
 .aboutPage{
-    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: Raleway;
     flex-direction: column;
+    min-height: 80vh;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+
 }
 
 .singleToolbox{
@@ -21,23 +26,58 @@
 
 .aboutCard{
     background-color: rgba(33, 2, 26, 0.781);
+    width: 100%;
+    border-radius: 25px !important;
+  
+
 }
 
 @media only screen
 and (min-width:600px )
 and (max-width:1000px) {
+    .aboutPage{
+        margin: 0;
+    }
+    .aboutCard {
+        width: 75% !important;
+        
+    }
+}
+
+
+
+@media only screen
+and (min-width:1000px )
+and (max-width:1400px) {
+    .aboutPage{
+        margin: 0;
+    }
+    .aboutCard {
+        width: 60% !important;
+        
+    }
+}
+
+@media only screen
+and (min-width:1400px )
+and (max-width:1700px) {
+    .aboutPage{
+        margin: 0;
+    }
+    .aboutCard {
+        width: 60% !important;
+        
+    }
+}
+
+@media only screen
+and (min-width:1700px) {
+    .aboutPage{
+        margin: 0;
+    }
     .aboutCard {
         width: 50% !important;
     }
 }
 
 
-
-
-
-@media only screen
-and (min-width:1000px) {
-    .aboutCard {
-        width: 40% !important;
-    }
-}

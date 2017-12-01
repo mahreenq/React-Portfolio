@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 import {Card, CardActions, CardTitle, CardText} from 'material-ui/Card';
-
+import { Link } from 'react-router-dom';
 
 import  FontAwesome from 'react-fontawesome';
 
@@ -44,9 +44,9 @@ const Project = ({project}) => {
                       </CardText>
 
                       <CardActions style={style.buttons}>
-                        {project.git_url ? <a style={style.buttons} href={project.git_url}><FontAwesome name=' fa-github' /> </a>
+                        {project.git_url ? <a target="_blank" style={style.buttons} href={project.git_url}><FontAwesome name=' fa-github' /> </a>
                           : null}
-                        {project.url  ? <a style={style.buttons} href={project.url}> <FontAwesome name=' fa-external-link' /> </a> : null }
+                        {project.url  ? <a target="_blank" style={style.buttons} href={project.url}> <FontAwesome name=' fa-external-link' /> </a> : null }
                       </CardActions>
                   </div>
 
@@ -100,3 +100,9 @@ const Project = ({project}) => {
   };
 
   // return  <a key={picture} className = "singlePortfolioLink" target="_blank" href={picture}><div className = "singlePortfolioImage"  style={background}> </div> </a>;
+
+//   <CardActions style={style.buttons}>
+//   {project.git_url ? <a style={style.buttons} href={project.git_url}><FontAwesome name=' fa-github' /> </a>
+//     : null}
+//   {project.url  ? <a style={style.buttons} href={project.url}> <FontAwesome name=' fa-external-link' /> </a> : null }
+// </CardActions>

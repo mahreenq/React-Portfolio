@@ -6,17 +6,14 @@ import {Card,  CardText} from 'material-ui/Card';
 
 const styles = {
   aboutCard: {
-    width: '80%', 
-    borderRadius: 100, 
     padding : 20, 
     backgroundColor: 'rgba(33, 2, 26, 0.781)', 
-    border: 'none'
   },
   aboutText: {
     padding: 15, 
     textAlign: 'center', 
     color: '#1DE9B6', 
-    fontSize: '1em' , 
+    fontSize: '1.2em' , 
     fontFamily: 'Raleway'
   },
   aboutToolbox: {
@@ -47,10 +44,10 @@ class About extends Component {
               <CardText style = {styles.aboutText}>
               Hey There! Thanks for dropping by! I am a motivated web developer seeking opportunities to build innovative products. 
               </CardText>
-              <CardText style = {styles.aboutText}>
+              <CardText className="aboutText" style = {styles.aboutText}>
               In order to deliver wholesome services, I have combined my business relations expertise with coding skills to understand client and stakeholder needs. 
               </CardText>
-              <CardText style = {styles.aboutText}>
+              <CardText className="aboutText" style = {styles.aboutText}>
               Through various ventures, I discovered a passion for coding, building creative designs and watching them come to life.
               </CardText>
 
@@ -60,7 +57,7 @@ class About extends Component {
               </CardText>
 
 
-              <CardText style = {styles.aboutToolbox}>
+              <CardText className="aboutToolbox" style = {styles.aboutToolbox}>
                     <div className="singleToolbox"><i className="devicon-html5-plain toolboxIcon"></i> HTML5</div>
                     <div className="singleToolbox"><i className="devicon-css3-plain toolboxIcon"></i> CSS3</div>
                     <div className="singleToolbox"><i className="devicon-javascript-plain toolboxIcon"></i>Javascript </div>
@@ -69,7 +66,7 @@ class About extends Component {
               </CardText>
 
 
-              <CardText style = {styles.aboutToolbox}>
+              <CardText className="aboutToolbox" style = {styles.aboutToolbox}>
                 <div className="singleToolbox"> <i className="devicon-php-plain toolboxIcon"></i>PHP</div>
                 <div className="singleToolbox"> <i className="devicon-wordpress-plain toolboxIcon"></i> Wordpress</div>
                 <div className="singleToolbox"> <i className="devicon-github-plain  toolboxIcon"></i>Github</div>
@@ -77,7 +74,7 @@ class About extends Component {
                 <div className="singleToolbox"> <i className="devicon-react-original toolboxIcon"></i>React</div>
               </CardText>
 
-              <CardText style = {styles.aboutToolbox}>
+              <CardText className="aboutToolbox" style = {styles.aboutToolbox}>
                 <div className="singleToolbox"> <i className="devicon-nodejs-plain toolboxIcon"></i>Node.js</div>
                 <div className="singleToolbox"> <i className="devicon-express-original toolboxIcon"></i>Express</div>
                 <div className="singleToolbox"> <i className="devicon-postgresql-plain toolboxIcon"></i>PostgreSQL</div>
