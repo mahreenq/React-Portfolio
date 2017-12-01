@@ -31,9 +31,10 @@ function DrawWorm(){
           canvas.width = width;
           canvas.height = height;
           
+          console.log('event listenres happens');
           canvas.addEventListener('touchmove', TouchMove, false);
           canvas.addEventListener('mousemove', MouseMove, false);
-          canvas.addEventListener('click', MouseDown, false);
+          //canvas.addEventListener('click', MouseDown, false);
           
           //Set interval - Bad! - I know!
           var interval = setInterval(Draw, 20);

@@ -18,6 +18,7 @@
 
 .homePage {
     /* background-color: #542D48; */
+  background-color: rgba(255, 0, 0, 0);
     height: 80vh;
     display: flex;
     align-items: center;
