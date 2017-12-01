@@ -36,7 +36,7 @@
 }
 
 .footer {
-    height: 10vh;
+    min-height: 10vh;
     background-color: #B8B7B8;
     text-align: center;
     align-items: center ;
@@ -45,6 +45,7 @@
     flex-direction: column;
     color: #360026;
     font-family: 'Raleway', sans-serif;
+    margin-top: 5px;
 
 }
 
@@ -53,15 +54,21 @@
     display: flex;
     justify-content: space-around;
     font-size: 1.4em;
+    margin: 0;
 
 }
 
 .contactFooter a {
     text-decoration: none;
-
     color: #360026;
+    margin: 0;
+}
+.contactFooter a p {
+    margin: 0;
+    padding: 5px;
 }
 
 .copyright{
-
+    margin: 0;
+    margin-bottom: 4px;
 }

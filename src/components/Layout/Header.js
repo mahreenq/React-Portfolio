@@ -10,7 +10,7 @@ const Header = ({path}) => {
         <div className="header">
           <div className= "nav">
       {path ==='/' ? null : <Link to='/'>  HOME </Link> }
-            <Link to='/about' ><div class="headerLink">>ABOUT</div></Link>
+            <Link to='/about' ><div class="headerLink">ABOUT</div></Link>
             <Link to='/showcase' >SHOWCASE</Link>
           </div>
         </div>
