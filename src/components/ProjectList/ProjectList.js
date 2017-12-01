@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './styles.css';
 import Project from '../Project';
 var Masonry = require('react-masonry-component');

@@ -1,23 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './styles.css';
-import {Card, CardActions, CardHeader, CardMedia, CardTitle, CardText} from 'material-ui/Card';
-import FlatButton from 'material-ui/FlatButton';
-import {BrowserRouter, Route, Switch, Link, Redirect, NavLink } from 'react-router-dom';
-import IconButton from 'material-ui/IconButton';
+import {Card, CardActions, CardTitle, CardText} from 'material-ui/Card';
+
 
 import  FontAwesome from 'react-fontawesome';
-import styles from 'react-responsive-carousel/lib/styles/carousel.min.css';
+
 
 
 
 const Project = ({project}) => {
-
-
-    {project.pictures.map((picture)=>{
-      console.log(picture)
-    })}
-
-
 
       return (
 
@@ -33,8 +24,9 @@ const Project = ({project}) => {
                   {project.pictures.map((picture)=>{
                         const background = {
                           backgroundImage: 'url('+ picture + ')',
+                          
                       }
-                    return  <a className = "singlePortfolioLink" target="_blank" href={picture}><div className = "singlePortfolioImage"  style={background}> </div> </a>;
+                    return  <a key={picture} className = "singlePortfolioLink" target="_blank" href={picture}><div className = "singlePortfolioImage"  style={background}> </div> </a>;
                   })}
                 </div>
           
@@ -69,7 +61,7 @@ const Project = ({project}) => {
     projectCard: {
       borderRadius: 50, 
       padding : 20, 
-      backgroundColor: '#21021A', 
+      backgroundColor: 'rgba(33, 2, 26, 0.781)', 
       border: 'none',
       margin: 5,
       fontFamily: 'Raleway',

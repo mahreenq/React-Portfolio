@@ -7,9 +7,11 @@ import { withRouter } from 'react-router-dom';
 
 class Layout extends Component {
   render() {
+    console.log(this.props.location.pathname);
+    const path = this.props.location.pathname;
     return (
       <div>
-     <Header />
+     <Header path ={path} />
         {this.props.children}
          <Footer />
       </div>

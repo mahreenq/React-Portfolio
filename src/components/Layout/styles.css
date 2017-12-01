@@ -37,11 +37,25 @@
 
 .footer {
     height: 10vh;
-    background-color: #737273;
+    background-color: #B8B7B8;
     text-align: center;
     align-items: center;
     justify-content: space-around;
     display: flex;
-    color: #1DE9B6;
+    flex-direction: column;
+    color: #360026;
     font-family: 'Raleway', sans-serif;
+}
+
+.contactFooter {
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.contactFooter a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #360026;
 }

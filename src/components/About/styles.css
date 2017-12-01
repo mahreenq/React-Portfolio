@@ -19,6 +19,10 @@
     font-size: 3em;
 }
 
+.aboutCard{
+    background-color: rgba(33, 2, 26, 0.781);
+}
+
 @media only screen
 and (min-width:600px )
 and (max-width:1000px) {

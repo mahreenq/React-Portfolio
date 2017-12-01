@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import Projects from './Projects';
-
-// import Loader from '../../components/Loader';
-import NotFound from '../../components/NotFound';
+import Loading from '../../components/Loading';
 import {connect} from 'react-redux';
 import {fetchProjects} from '../../redux/modules/projects';
 
@@ -18,7 +15,7 @@ class ProjectsContainer extends Component {
        const loading = this.props.isLoading;
       
           return ( 
-             this.props.projectsData.length > 0 ?  <Projects  projectsData={this.props.projectsData} isLoading = {loading} />: <NotFound/>  
+             this.props.projectsData.length > 0 ?  <Projects  projectsData={this.props.projectsData} isLoading = {loading} />: <Loading/>  
          
           );
        }

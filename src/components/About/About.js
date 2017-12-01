@@ -9,7 +9,7 @@ const styles = {
     width: '80%', 
     borderRadius: 100, 
     padding : 20, 
-    backgroundColor: '#21021A', 
+    backgroundColor: 'rgba(33, 2, 26, 0.781)', 
     border: 'none'
   },
   aboutText: {

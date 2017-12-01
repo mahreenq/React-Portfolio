@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './styles.css';
-
+import { Link } from 'react-router-dom';
 
 
 class NotFound extends Component {
@@ -12,14 +12,10 @@ class NotFound extends Component {
   
     render() {
       return (
-        <div className="home_page flex justify-center">
-          <div className="make_clickable">
-            <div className="mars text-align">
-              <h1 className="yellow name">NOT FOUND</h1>
-            </div>
-          </div>
-          <div className="rocket">
-         
+        <div className="notFound">
+          <div className="notFoundText">
+              <h1> Oops, you've reached a page that does not exist </h1>
+              <h3> Go back <Link to='/'>  home </Link> </h3>
           </div>
         </div>
       );
