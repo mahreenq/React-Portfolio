@@ -11,9 +11,9 @@ class Loading extends Component {
   
     render() {
       return (
-        <div className="">
+        <div className="loadingContainer">
           <div className="">
-          <CircularProgress size={80} thickness={5} />
+          <CircularProgress size={150} thickness={10} />
           </div>
           <div className="">
          
