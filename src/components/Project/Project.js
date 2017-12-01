@@ -9,6 +9,7 @@ import  FontAwesome from 'react-fontawesome';
 
 
 const Project = ({project}) => {
+  const flexGroup = project.id % 2 === 0 ? "row" : "rowReverse";  
 
       return (
 
@@ -16,36 +17,42 @@ const Project = ({project}) => {
           <Card className = "projectCard" style={style.projectCard}>
          
            
-              <CardTitle title={project.title} titleStyle={style.title} subtitleStyle={style.tools} subtitle={project.tools.map((tool,i) => { return  `${tool}${ project.tools.length - 1 === i ? '' : ', '}` } ) } />
+              <CardTitle title={project.title} titleStyle={style.title} subtitleStyle={style.tools} subtitle={project.tools.map((tool,i) => { return  `${tool}${ project.tools.length - 1 === i ? '' : ',   '}` } ) } />
+                
+              
+            <div className={flexGroup}>
 
-              {project.pictures.length > 0 ? 
-
-                <div className="portfolioImages">
-                  {project.pictures.map((picture)=>{
-                        const background = {
-                          backgroundImage: 'url('+ picture + ')',
-                          
-                      }
-                    return  <a key={picture} className = "singlePortfolioLink" target="_blank" href={picture}><div className = "singlePortfolioImage"  style={background}> </div> </a>;
-                  })}
+                <div className="picturePorfolioDiv">
+                  {project.pictures.length > 0 ? 
+                    <div className="portfolioImages">
+                      {project.pictures.map((picture)=>{
+                            const background = {
+                              backgroundImage: 'url('+ picture + ')',
+                          }
+                        return  <a target="_blank" href={picture}><div  className = "singlePortfolioImage"  style={background}>  </div></a>;
+                      })}
+                    </div>  : null }
                 </div>
-          
-          : null }
 
 
+                <div className="descPortfolioDiv">
+                    <CardText style={style.description}>
+                      <span className="greyFont">ASK:</span> {project.ask}
+                      </CardText>
+                      <CardText style={style.description}>
+                        <span className="greyFont">FINISHED PRODUCT:</span> {project.result}
+                      </CardText>
+
+                      <CardActions style={style.buttons}>
+                        {project.git_url ? <a style={style.buttons} href={project.git_url}><FontAwesome name=' fa-github' /> </a>
+                          : null}
+                        {project.url  ? <a style={style.buttons} href={project.url}> <FontAwesome name=' fa-external-link' /> </a> : null }
+                      </CardActions>
+                  </div>
+
+             </div>     
 
 
-              <CardText style={style.description}>
-              <span className="greyFont">ASK:</span> {project.ask}
-              </CardText>
-              <CardText style={style.description}>
-                <span className="greyFont">FINISHED PRODUCT:</span> {project.result}
-              </CardText>
-              <CardActions style={style.buttons}>
-                {project.git_url ? <a style={style.buttons} href={project.git_url}><FontAwesome name=' fa-github' /> </a>
-                  : null}
-                {project.url  ? <a style={style.buttons} href={project.url}> <FontAwesome name=' fa-external-link' /> </a> : null }
-              </CardActions>
           </Card>
 
   </div>
@@ -70,6 +77,7 @@ const Project = ({project}) => {
       fontSize: '1.8em', 
       fontWeight: 500,
       color:'#9E9E9E',
+      borderBottom: 2,
       
     },
     tools:{
@@ -84,11 +92,11 @@ const Project = ({project}) => {
       
     },
     buttons:{
-      display: 'flex',
-      justifyContent: 'space-around',
       color:'#1DE9B6',
       fontSize: '1.5em',
       textDecoration: 'none',
+      padding: 15,
     }
   };
 
+  // return  <a key={picture} className = "singlePortfolioLink" target="_blank" href={picture}><div className = "singlePortfolioImage"  style={background}> </div> </a>;
