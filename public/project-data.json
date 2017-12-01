@@ -56,9 +56,7 @@
         "ask":
         "In collaboration with UI/UX team, build a Wordpress theme for a client wishing to re-vamp their website and make it more user-friendly.",
         "result":
-        "Full-stack social media application built in house for RED Academy. Allowing students to get to know each other, vote for upcoming event themes, staff announcements or random posts.",
-        "description":
-          "Used PHP to build Wordpress theme in a team environment. Research was done to ensure the best-suited plugins were used. Group performance was optimized by using Git for version control and collaboration. I was given the role of Client Lead which included additional duties of being in constant communication with the client and presenting the final product.",
+         "Used PHP to build Wordpress theme in a team environment. Research was done to ensure the best-suited plugins were used. Group performance was optimized by using Git for version control and collaboration. I was given the role of Client Lead which included additional duties of being in constant communication with the client and presenting the final product.",
         "tools": [ "WordPress", "PHP", "HTML", "SASS", "Gulp"]
       }
 
