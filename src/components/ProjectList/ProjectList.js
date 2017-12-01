@@ -8,13 +8,13 @@ const ProjectList = ({projectsData}) => {
   
     return (
       
-     <Masonry className="projectCardList">
+     <div className="projectCardList">
            
            {projectsData.map((project)=>{
                  return <Project key={project.id} project={project}  />
                })}
                 
-     </Masonry>
+     </div >
      
     
    )
