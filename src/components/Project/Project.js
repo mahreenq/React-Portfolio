@@ -88,7 +88,7 @@ const Project = ({project}) => {
       color:'#1DE9B6',
     },
     description:{
-      fontSize: '1.1em',
+      fontSize: '1.5em',
       lineHeight: 1.5,
       color:'#EEEEEE',
       
