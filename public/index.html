@@ -32,7 +32,7 @@
       }
 
     @media only screen /*DESKTOP */
-  and (min-width:600px) { 
+  and (min-width:1000px) { 
     canvas {
       width: 100vw;
       height: 100vh;
@@ -107,6 +107,7 @@
               var canvas = document.createElement( 'canvas' );
               canvas.width = 16;
               canvas.height = 16;
+              canvas.preventDefault= false
               var context = canvas.getContext( '2d' );
               var gradient = context.createRadialGradient( canvas.width / 2, canvas.height / 2, 0, canvas.width / 2, canvas.height / 2, canvas.width / 2 );
               gradient.addColorStop( 0.3, 'rgba(84,45,72,1)' );
