@@ -115,7 +115,7 @@ and (max-width:600px) {
 
 @media only screen
 and (min-width:600px )
-and (max-width:1020px) {
+and (max-width:860px) {
     .aboutPage{
         margin: 0;
     }
@@ -132,6 +132,32 @@ and (max-width:1020px) {
     .aboutPicture{
         height: 230px;
         width: 40%;
+    }
+    .cardBio{
+        width: 60%;
+    }
+
+}
+
+@media only screen
+and (min-width:860px )
+and (max-width:1020px) {
+    .aboutPage{
+        margin: 0;
+    }
+    .aboutCard {
+        width: 90% !important;
+        display: flex ;
+    }
+    .aboutPic{
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+    .aboutPicture{
+        height: 230px;
+        width: 30%;
     }
     .cardBio{
         width: 60%;
@@ -157,7 +183,7 @@ and (max-width:1300px) {
         justify-content: space-around;
     }
     .aboutPicture{
-        height: 195px;
+        height: 200px;
         width: 30%;
     }
     .cardBio{
