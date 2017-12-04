@@ -12,7 +12,7 @@
     font-size: 1.1em;
 }
 
-.nav a::after {
+/* .nav a::after {
     content: '';
     display: block;
     width: 0;
@@ -24,7 +24,7 @@
 .nav a:hover::after {
     width: 100%;
     transition: width .8s;
-}
+} */
 
 .header {
     height: 10vh;

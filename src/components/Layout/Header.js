@@ -9,7 +9,7 @@ const Header = ({path}) => {
       return (
         <div className="header">
           <div className= "nav">
-      {path ==='/' ? null : <Link to='/'>  HOME </Link> }
+            {path ==='/' ? null : <Link to='/'>  HOME </Link> }
             <Link to='/about' ><div className="headerLink">ABOUT</div></Link>
             <Link to='/showcase' >SHOWCASE</Link>
           </div>
