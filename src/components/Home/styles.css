@@ -31,7 +31,7 @@
 and (min-width:600px )
 and (max-width:1000px) {
     .nameHomePage {
-        font-size: 6rem;
+        font-size: 5rem;
     }
     .wdHomePage {
         font-size: 3em;
@@ -45,7 +45,7 @@ and (max-width:1000px) {
 @media only screen
 and (min-width:1000px) {
     .nameHomePage {
-        font-size: 9rem ;
+        font-size: 7rem ;
     }
     .wdHomePage {
         font-size: 4em;
