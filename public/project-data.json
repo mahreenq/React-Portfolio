@@ -6,7 +6,7 @@
       "git_url": "https://github.com/jeanmaried/RED-Book",
       "pictures": ["https://image.ibb.co/kvFGHw/Screenshot_2017_11_30_12_21_23.png","https://preview.ibb.co/kMUMjb/Screenshot_2017_11_30_12_30_44.png", "https://image.ibb.co/n11Z4b/Screenshot_2017_11_30_12_31_53.png"],
       "ask":
-      "Design and build a real-time JavaScript web application as a group.  The social media app should allow students and staff at RED Academy to share their ideas/posts.  Registered members should be able to edit their profile, post ideas and vote on ideas.",
+      "Design and build a real-time JavaScript web application in a team environment.  The social media app should allow students and staff at RED Academy to share their ideas/posts.  Registered members should be able to edit their profile, post ideas and vote on ideas.",
       "result":
       "The web application was built using Meteor as a platform. React was used as the rendering library.  Data was stored using MongoDB as the database. Group performance was optimized by using Git for version control and collaboration. Hosted on Heroku.",
       "tools": ["React.js", "Meteor", "MongoDB", "JSX", "CSS"]
@@ -16,7 +16,7 @@
         "title": "R10 Conference App",
         "url": null ,
         "git_url": "https://github.com/mahreenq/React-Native-R10-App",
-        "pictures": ["https://image.ibb.co/k9AiEb/About_scene_1.png", "https://image.ibb.co/hx2wZb/Speaker_scene_2.png", "https://image.ibb.co/dZ610G/Session_scene.png"],
+        "pictures": ["https://preview.ibb.co/evVVfG/Screenshot_2017_12_04_14_51_34.png", "https://preview.ibb.co/jB6gnw/Screenshot_2017_12_04_14_52_01.png", "https://preview.ibb.co/kBHnSw/Screenshot_2017_12_04_14_52_16.png"],
         "ask":
         "Use provided designs to build a cross-platform (iOS and Android) app for an upcoming conference.  Through the app, users should be able to see details of the schedule, individual sessions, and speakers.  Users should also be able to save individual sessions under a favourite tab for easy access.",
         "result":
@@ -44,7 +44,7 @@
         "ask":
         "Use provided designs to build a page that displays a dropdown with news categories.  Upon selection of a category, feed from New York Times should display. Page should be responsive for mobile, tablet and desktop.",
         "result":
-        "Used AJAX requests to display feed from New York Times API. Media queries added to make page responsive. ",
+        " Used Ajax request to fetch data from the NYT Top Stories endpoint. Media queries added to make page responsive. ",
         "tools": ["Javascript", "JQuery", "HTML5", "SASS"]
       },
       {

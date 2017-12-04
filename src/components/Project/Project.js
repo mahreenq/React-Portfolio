@@ -4,16 +4,22 @@ import {Card, CardActions, CardTitle, CardText} from 'material-ui/Card';
 import { Link } from 'react-router-dom';
 
 import  FontAwesome from 'react-fontawesome';
-
+import { Carousel } from 'react-responsive-carousel';
+import styles from 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 
 
 const Project = ({project}) => {
+  
   const flexGroup = project.id % 2 === 0 ? "row" : "rowReverse";  
+  const pictures = project.pictures;
+  console.log(pictures);
 
       return (
 
         <div className = "singleProject">
+                    
+
           <Card className = "projectCard" style={style.projectCard}>
          
            
@@ -21,18 +27,14 @@ const Project = ({project}) => {
                 
               
             <div className={flexGroup}>
+                  
 
-                <div className="picturePorfolioDiv">
-                  {project.pictures.length > 0 ? 
-                    <div className="portfolioImages">
-                      {project.pictures.map((picture)=>{
-                            const background = {
-                              backgroundImage: 'url('+ picture + ')',
-                          }
-                        return  <a target="_blank" href={picture} key={picture}><div  className = "singlePortfolioImage"  style={background}>  </div></a>;
+
+                    <Carousel className="carouseldiv" autoPlay>
+                    {pictures.map((picture)=>{    return  <div class="selectedImageDiv"> <img  class="selectedImagePic" src={picture} /> </div>
                       })}
-                    </div>  : null }
-                </div>
+                    </Carousel>
+
 
 
                 <div className="descPortfolioDiv">
@@ -106,3 +108,16 @@ const Project = ({project}) => {
 //     : null}
 //   {project.url  ? <a style={style.buttons} href={project.url}> <FontAwesome name=' fa-external-link' /> </a> : null }
 // </CardActions>
+
+
+                // {/* <div className="picturePorfolioDiv">
+                //   {project.pictures.length > 0 ? 
+                //     <div className="portfolioImages">
+                //       {project.pictures.map((picture)=>{
+                //             const background = {
+                //               backgroundImage: 'url('+ picture + ')',
+                //           }
+                //         return  <a target="_blank" href={picture} key={picture}><div  className = "singlePortfolioImage"  style={background}>  </div></a>;
+                //       })}
+                //     </div>  : null }
+                // </div> */}
