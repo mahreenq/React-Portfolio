@@ -10,6 +10,12 @@
     text-decoration: none;
     color: #F1F0F1 ;
     font-size: 1.1em;
+    
+}
+
+.nav a:hover{
+    border-bottom: 2px solid rgb(101, 184, 173);
+
 }
 
 /* .nav a::after {
@@ -25,6 +31,8 @@
     width: 100%;
     transition: width .8s;
 } */
+
+
 
 .header {
     height: 10vh;
