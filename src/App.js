@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { HashRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Route, Switch } from 'react-router-dom';
 // import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
@@ -24,7 +24,7 @@ class App extends Component {
   }
   render() {
     return (
-      <HashRouter>
+      <BrowserRouter>
          <Provider store={store}>
         <MuiThemeProvider >
             <Layout>
@@ -39,7 +39,7 @@ class App extends Component {
             
             </MuiThemeProvider>
             </Provider>
-      </HashRouter>
+      </BrowserRouter>
     );
   }
 }
