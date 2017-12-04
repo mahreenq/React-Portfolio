@@ -93,13 +93,22 @@ and (max-width:400px) {
 
 @media only screen
 and (min-width:400px )
-and (max-width:600px) {
+and (max-width:450px) {
     .aboutPicture{
         height: 250px;
         border-radius: 150px;
     }
 }
 
+@media only screen
+and (min-width:450px )
+and (max-width:600px) {
+    .aboutPicture{
+        height: 250px;
+        border-radius: 150px;
+        width: 60%;
+    }
+}
 
 
 
