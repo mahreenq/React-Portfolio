@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import './styles.css';
 
-import {Card,  CardText} from 'material-ui/Card';
+import {Card,  CardText, CardMedia} from 'material-ui/Card';
 
 
 const styles = {
   aboutCard: {
     padding : 20, 
     backgroundColor: 'rgba(33, 2, 26, 0.781)', 
+    display: 'flex',
   },
   aboutText: {
     padding: 15, 
@@ -39,18 +40,29 @@ class About extends Component {
     render() {
       return (
         <div className="aboutPage">
+         <div className="banner">
+         <h1> ABOUT </h1>
+         </div>
+       
+       
      
           <Card className="aboutCard" style={styles.aboutCard}>
-              <CardText style = {styles.aboutText}>
-              Hey There! Thanks for dropping by! I am a motivated web developer seeking opportunities to build innovative products. 
-              </CardText>
-              <CardText className="aboutText" style = {styles.aboutText}>
-              In order to deliver wholesome services, I have combined my business relations expertise with coding skills to understand client and stakeholder needs. 
-              </CardText>
-              <CardText className="aboutText" style = {styles.aboutText}>
-              Through various ventures, I discovered a passion for coding, building creative designs and watching them come to life.
-              </CardText>
-
+              <div className="aboutPic">
+          
+                  <div className="aboutPicture">  </div>
+                  <div className="cardBio">
+                  <CardText style = {styles.aboutText}>
+                  Hey There! Thanks for dropping by! I am a motivated web developer seeking opportunities to build innovative products. 
+                  </CardText>
+                  <CardText className="aboutText" style = {styles.aboutText}>
+                  In order to deliver wholesome services, I have combined my business relations expertise with coding skills to understand client and stakeholder needs. 
+                  </CardText>
+                  <CardText className="aboutText" style = {styles.aboutText}>
+                  Through various ventures, I discovered a passion for coding, building creative designs and watching them come to life.
+                  </CardText>
+                  </div>
+              </div>
+        
 
               <CardText style = {{padding: 15, textAlign: 'center', color: '#EEEEEE', fontSize: '1.2em' , fontFamily: 'Raleway'}}>
               Current Toolbox 
@@ -81,8 +93,10 @@ class About extends Component {
                 <div className="singleToolbox"> <i className="devicon-mongodb-plain toolboxIcon"></i>MongoDB</div>  
                 <div className="singleToolbox"> <i className="devicon-meteor-plain toolboxIcon"></i>Meteor</div>         
               </CardText>
+              
           </Card>
-
+     
+         
           </div>
 
       );

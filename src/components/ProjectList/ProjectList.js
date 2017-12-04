@@ -8,11 +8,18 @@ const ProjectList = ({projectsData}) => {
   
     return (
       
+     <div className="">
+
+     <div className="projectsBanner">
+     <h1> SHOWCASE </h1>
+     </div>
      <div className="projectCardList">
+
            
            {projectsData.map((project)=>{
                  return <Project key={project.id} project={project}  />
                })}
+      </div>
                 
      </div >
      
