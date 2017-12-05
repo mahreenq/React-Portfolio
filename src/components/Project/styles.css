@@ -124,7 +124,7 @@
 
   @media only screen  /*Tablet */
   and (min-width:605px )
-  and (max-width:1000px) {
+  and (max-width:1200px) {
     /* .singleProject{
       width: 45%; 
     } */
@@ -167,8 +167,10 @@
 
   }
   
+
+
   @media only screen /*DESKTOP */
-  and (min-width:1000px) {
+  and (min-width:1200px) {
       /* .singleProject {
           width: 31% ;
       } */
@@ -209,8 +211,66 @@
    }
 
    .description{
-    font-size: 1.1em !important;
+    
+    font-size: 1.6em !important;
   }
+  .greyFont{
+    color: #9E9E9E !important;
+    font-size: 1.3rem !important;
+  }
+ 
+  
+  }
+
+
+
+
+
+
+  @media only screen /*DESKTOP */
+  and (min-width:1000px) {
+      /* .singleProject {
+          width: 31% ;
+      } */
+      /* .row {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 2px solid grey;
+        padding-top: 10px;
+    }
+  
+    .rowReverse{
+          display: flex;
+          flex-direction: row-reverse;
+          width: 100%;
+          justify-content: space-between;
+          align-items: center;
+          border-top: 2px solid grey;
+          padding-top: 10px;
+    }
+    .portfolioImages{
+      flex-direction: column; 
+      align-items: center;
+    }
+  
+    .picturePorfolioDiv{
+      width: 50%;
+    }
+  
+    .singlePortfolioImage{
+      height: 150px;
+      width: 150px;
+  }
+  .carouseldiv{
+    width: 80%;
+   }
+
+   .description{
+    font-size: 1.1em !important;
+  } */
   
   }
 
