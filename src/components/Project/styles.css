@@ -181,7 +181,7 @@
         justify-content: space-between;
         align-items: center;
         border-top: 2px solid grey;
-        padding-top: 10px;
+        padding-top: 2em;
     }
   
     .rowReverse{
@@ -191,7 +191,7 @@
           justify-content: space-between;
           align-items: center;
           border-top: 2px solid grey;
-          padding-top: 10px;
+          padding-top: 2em;
     }
     .portfolioImages{
       flex-direction: column; 
@@ -219,6 +219,12 @@
     font-size: 1.3rem !important;
   }
  
+  .singleProject{
+    width: 80%;
+  }
+  .projectCard{
+    padding: 2.5em !important;
+  }
   
   }
 
