@@ -38,10 +38,10 @@ const Project = ({project}) => {
 
 
                 <div className="descPortfolioDiv">
-                    <CardText style={style.description}>
+                    <CardText className="description" style={style.description}>
                       <span className="greyFont">ASK:</span> {project.ask}
                       </CardText>
-                      <CardText style={style.description}>
+                      <CardText className="description" style={style.description}>
                         <span className="greyFont">FINISHED PRODUCT:</span> {project.result}
                       </CardText>
 
@@ -88,7 +88,7 @@ const Project = ({project}) => {
       color:'#1DE9B6',
     },
     description:{
-      fontSize: '1.5em',
+      
       lineHeight: 1.5,
       color:'#EEEEEE',
       
