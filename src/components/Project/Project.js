@@ -48,7 +48,7 @@ const Project = ({project}) => {
                       <CardActions style={style.buttons}>
                         {project.git_url ? <a target="_blank" style={style.buttons} href={project.git_url}><FontAwesome name=' fa-github' /> </a>
                           : null}
-                        {project.url  ? <a target="_blank" style={style.buttons} href={project.url}> <FontAwesome name=' fa-external-link' /> </a> : null }
+                        {project.url  ? <a target="_blank" style={style.buttons} href={project.url}> <FontAwesome name=' fa-mouse-pointer' /> </a> : null }
                       </CardActions>
                   </div>
 
