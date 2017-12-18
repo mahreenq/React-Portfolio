@@ -48,7 +48,7 @@ const Project = ({project}) => {
                       <CardActions style={style.buttons}>
                         {project.git_url ? <a target="_blank" style={style.buttons} href={project.git_url}><FontAwesome name=' fa-github' /> </a>
                           : null}
-                        {project.url  ? <a target="_blank" style={style.buttons} href={project.url}> <FontAwesome name=' fa-mouse-pointer' /> </a> : null }
+                        {project.url  ? <a target="_blank" style={style.linkButton} href={project.url}> <FontAwesome name=' fa-mouse-pointer' /> </a> : null }
                       </CardActions>
                   </div>
 
@@ -98,26 +98,11 @@ const Project = ({project}) => {
       fontSize: '1.5em',
       textDecoration: 'none',
       padding: 15,
+    },
+    linkButton:{
+      color:'#1DE9B6',
+      fontSize: '0.7em',
+      textDecoration: 'none',
+      padding: 15,
     }
   };
-
-  // return  <a key={picture} className = "singlePortfolioLink" target="_blank" href={picture}><div className = "singlePortfolioImage"  style={background}> </div> </a>;
-
-//   <CardActions style={style.buttons}>
-//   {project.git_url ? <a style={style.buttons} href={project.git_url}><FontAwesome name=' fa-github' /> </a>
-//     : null}
-//   {project.url  ? <a style={style.buttons} href={project.url}> <FontAwesome name=' fa-external-link' /> </a> : null }
-// </CardActions>
-
-
-                // {/* <div className="picturePorfolioDiv">
-                //   {project.pictures.length > 0 ? 
-                //     <div className="portfolioImages">
-                //       {project.pictures.map((picture)=>{
-                //             const background = {
-                //               backgroundImage: 'url('+ picture + ')',
-                //           }
-                //         return  <a target="_blank" href={picture} key={picture}><div  className = "singlePortfolioImage"  style={background}>  </div></a>;
-                //       })}
-                //     </div>  : null }
-                // </div> */}
