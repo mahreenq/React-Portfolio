@@ -101,7 +101,7 @@ const Project = ({project}) => {
     },
     linkButton:{
       color:'#1DE9B6',
-      fontSize: '0.7em',
+      fontSize: '1.2em',
       textDecoration: 'none',
       padding: 15,
     }
