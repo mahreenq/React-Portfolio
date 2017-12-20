@@ -52,7 +52,7 @@ class About extends Component {
                   <div className="aboutPicture">  </div>
                   <div className="cardBio">
                   <CardText style = {styles.aboutText}>
-                  Hey! I am a web developer enthusiastic about building innovative products. 
+                  Hey there! I am a web developer enthusiastic about building innovative products. 
                   </CardText>
                   <CardText className="aboutText" style = {styles.aboutText}>
                   In order to deliver wholesome services, I have combined my business relations expertise with coding skills to understand client and stakeholder needs. 
