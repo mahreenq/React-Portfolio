@@ -50,7 +50,7 @@
       {
         "id": 5,
         "title": "News Feed - New York Times",
-        "url": null,
+        "url": "https://mahreenq.github.io/NYT-API/",
         "git_url": "https://github.com/mahreenq/NYT-API",
         "pictures": ["https://preview.ibb.co/gYzw0G/Screenshot_2017_11_30_14_05_55.png","https://preview.ibb.co/kcnASw/Screenshot_2017_11_30_14_10_02.png", "https://preview.ibb.co/d4xG0G/Screenshot_2017_11_30_14_06_13.png"],
         "ask":
