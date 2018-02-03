@@ -45,7 +45,7 @@
         "Build a custom WordPress theme for a client seeking a user-friendly design to manage content. PIECE OF MINE Arts presents multidisciplinary works created by artists of the African Diaspora, as well as youth programming that explores African Canadian narratives.",
         "result":
         "Used PHP to build Wordpress theme. Custom plugin was built to manage custom post types and taxonomies. Research was done to ensure the best-suited plugins were used per client need (Smart Slider, Custom Field Suite, Contact Form 7, Instagram Feed, NextGEN Gallery).",
-        "tools": ["WordPress", "PHP", "HTML", "SASS", "Gulp"]
+        "tools": ["WordPress", "PHP", "HTML", "SCSS", "Gulp"]
       },
       {
         "id": 5,
@@ -57,7 +57,7 @@
         "Use provided designs to build a page that displays a dropdown with news categories.  Upon selection of a category, feed from New York Times should display. Page should be responsive for mobile, tablet and desktop.",
         "result":
         " Used Ajax request to fetch data from the NYT Top Stories endpoint. Media queries added to make page responsive. ",
-        "tools": ["Javascript", "JQuery", "HTML5", "SASS"]
+        "tools": ["Javascript", "JQuery", "HTML5", "SCSS"]
       },
       {
         "id": 6,
@@ -69,7 +69,19 @@
         "In collaboration with UI/UX team, build a Wordpress theme for a client wishing to re-vamp their website and make it more user-friendly.",
         "result":
          "Used PHP to build Wordpress theme in a team environment. Research was done to ensure the best-suited plugins were used. Group performance was optimized by using Git for version control and collaboration. I was given the role of Client Lead which included additional duties of being in constant communication with the client and presenting the final product.",
-        "tools": [ "WordPress", "PHP", "HTML", "SASS", "Gulp"]
+        "tools": [ "WordPress", "PHP", "HTML", "SCSS", "Gulp"]
+      },
+      {
+        "id": 7,
+        "title": "Aloha",
+        "url": "https://mahreenq.github.io/HTML-CSS-JS-Aloha/",
+        "git_url": "https://github.com/mahreenq/HTML-CSS-JS-Aloha",
+        "pictures": ["https://image.ibb.co/dUd54R/Screenshot_2018_02_02_23_14_40.png", "https://image.ibb.co/j9vk4R/Screenshot_2018_02_02_23_14_25.png", "https://image.ibb.co/e12XjR/Screenshot_2018_02_02_23_14_04.png" ],
+        "ask":
+        "Build a simple landing page for a fictional clothing retailer.  Page should be built using mobile-first approach and should be responsive for tablet and desktop widths.",
+        "result":
+         "This was my first coded page. It was built using HTML5, SCSS, JavaScript and Jquery.  BXSlider plugin was added to slide through different clothing items.  Simple Javascript/JQuery function used to create a counter on shopping cart.",
+        "tools": [ "HTML", "SCSS", "Gulp", "JavaScript", "JQuery"]
       }
 
   ]
