@@ -49,6 +49,16 @@
       },
       {
         "id": 5,
+        "title": "HTML Game",
+        "url": "https://mahreenq.github.io/HTML-Game/",
+        "git_url": "https://github.com/mahreenq/HTML-Game",
+        "pictures": ["https://ibb.co/mTkybS", "https://ibb.co/drYjGS" ],
+        "ask":"Code a simple HTML game using HTML & JavaScript!",
+        "result":"I decided to try something new and code my first HTML game! I played around with the canvas element, used HTML, SCSS and Javascript.",
+        "tools": ["HTML","JavaScript", "SCSS"]
+      },
+      {
+        "id": 6,
         "title": "News Feed - New York Times",
         "url": "https://mahreenq.github.io/NYT-API/",
         "git_url": "https://github.com/mahreenq/NYT-API",
@@ -60,7 +70,7 @@
         "tools": ["Javascript", "JQuery", "HTML5", "SCSS"]
       },
       {
-        "id": 6,
+        "id": 7,
         "title": "GTA Toothfairy",
         "url": "http://www.gtatoothfairy.com/",
         "git_url": "https://github.com/jeanmaried/Tooth-fairy-wordpress-site",
@@ -72,7 +82,7 @@
         "tools": [ "WordPress", "PHP", "HTML", "SCSS", "Gulp"]
       },
       {
-        "id": 7,
+        "id": 8,
         "title": "Aloha",
         "url": "https://mahreenq.github.io/HTML-CSS-JS-Aloha/",
         "git_url": "https://github.com/mahreenq/HTML-CSS-JS-Aloha",
