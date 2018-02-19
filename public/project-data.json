@@ -52,7 +52,7 @@
         "title": "HTML Game",
         "url": "https://mahreenq.github.io/HTML-Game/",
         "git_url": "https://github.com/mahreenq/HTML-Game",
-        "pictures": ["https://ibb.co/mTkybS", "https://ibb.co/drYjGS" ],
+        "pictures": ["https://image.ibb.co/eGQLqn/Screen_Shot_2018_02_19_at_12_35_47_AM.png", "https://image.ibb.co/c4Ufqn/Screen_Shot_2018_02_19_at_12_36_09_AM.png" ],
         "ask":"Code a simple HTML game using HTML & JavaScript!",
         "result":"I decided to try something new and code my first HTML game! I played around with the canvas element, used HTML, SCSS and Javascript.",
         "tools": ["HTML","JavaScript", "SCSS"]
