@@ -1,6 +1,18 @@
 [
+  {
+    "id": 1,
+    "title": "Connections",
+    "url": null,
+    "git_url": "https://github.com/mahreenq/React-Native-Firebase-Connections-App",
+    "pictures": ["https://image.ibb.co/gGHE77/Screenshot_2018_03_26_18_33_56.png", "https://image.ibb.co/nhuGLS/Screenshot_2018_03_26_18_34_58.png", "https://image.ibb.co/iTEu77/Screenshot_2018_03_26_18_34_23.png"],
+    "ask":
+    "Design and build a real-time social media mobile application. Users should be able to register, publish posts, and submit invites to events.",
+    "result":
+    "The mobile application is built using React Native. Firebase is the platform used for authentication and storing data. Profile images are rendered using Gravatar and Icons are rendered using Ionicons. Users can 'like' posts and 'RSVP' to events. Logic is added so only the author of posts and events can delete them.",
+    "tools": ["React Native", "Firebase", "JSX", "CSS"]
+  },
     {
-      "id": 1,
+      "id": 2,
       "title": "RED Life",
       "url": "https://reddir.herokuapp.com/",
       "git_url": "https://github.com/jeanmaried/RED-Book",
@@ -12,7 +24,7 @@
       "tools": ["React.js", "Meteor", "MongoDB", "JSX", "CSS"]
     },
     {
-        "id": 2,
+        "id": 3,
         "title": "R10 Conference App",
         "url": null ,
         "git_url": "https://github.com/mahreenq/React-Native-R10-App",
@@ -24,7 +36,7 @@
         "tools": ["React Native","CSS", "Realm"]
       },
       {
-        "id": 3,
+        "id": 4,
         "title": "Mars React App - First React Project",
         "url": "http://marsmq65.herokuapp.com/",
         "git_url": "https://github.com/mahreenq/Mars-Web-App-React",
@@ -36,7 +48,7 @@
         "tools": ["JSX", "CSS3", "React.js"]
       },
       {
-        "id": 4,
+        "id": 5,
         "title": "Piece of Mine Arts",
         "url": "http://www.pieceofminearts.com/",
         "git_url": "https://github.com/mahreenq/POMA-WordPress-Theme",
@@ -48,7 +60,7 @@
         "tools": ["WordPress", "PHP", "HTML", "SCSS", "Gulp"]
       },
       {
-        "id": 5,
+        "id": 6,
         "title": "HTML Game",
         "url": "https://mahreenq.github.io/HTML-Game/",
         "git_url": "https://github.com/mahreenq/HTML-Game",
@@ -58,7 +70,7 @@
         "tools": ["HTML","JavaScript", "SCSS"]
       },
       {
-        "id": 6,
+        "id": 7,
         "title": "News Feed - New York Times",
         "url": "https://mahreenq.github.io/NYT-API/",
         "git_url": "https://github.com/mahreenq/NYT-API",
@@ -70,7 +82,7 @@
         "tools": ["Javascript", "JQuery", "HTML5", "SCSS"]
       },
       {
-        "id": 7,
+        "id": 8,
         "title": "GTA Toothfairy",
         "url": "http://www.gtatoothfairy.com/",
         "git_url": "https://github.com/jeanmaried/Tooth-fairy-wordpress-site",
@@ -82,7 +94,7 @@
         "tools": [ "WordPress", "PHP", "HTML", "SCSS", "Gulp"]
       },
       {
-        "id": 8,
+        "id": 9,
         "title": "Aloha",
         "url": "https://mahreenq.github.io/HTML-CSS-JS-Aloha/",
         "git_url": "https://github.com/mahreenq/HTML-CSS-JS-Aloha",
