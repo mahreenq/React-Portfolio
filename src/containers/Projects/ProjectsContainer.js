@@ -4,11 +4,9 @@ import Loading from '../../components/Loading';
 import {connect} from 'react-redux';
 import {fetchProjects} from '../../redux/modules/projects';
 
-
-
 class ProjectsContainer extends Component {
 
-  componentDidMount(){
+  componentWillMount(){
     this.props.dispatch(fetchProjects());
 }
       render() {
@@ -25,7 +23,8 @@ class ProjectsContainer extends Component {
 
 const mapStateToProps = state => ({
   isLoading: state.projects.isLoading,
-  projectsData: state.projects.projectsData
+  projectsData: state.projects.projectsData,
+  //selected : state.selected.selectedStack
 })
 
-export default connect(mapStateToProps )(ProjectsContainer);
+export default connect(mapStateToProps)(ProjectsContainer);

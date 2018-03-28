@@ -26,3 +26,43 @@
     font-size: 1.2em;
     margin-bottom: 2em;
 }
+
+.buttonGroup {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.btn {
+    margin: 5px;
+}
+
+@media only screen  /*Mobile Larger */
+and (min-width:640px )
+and (max-width: 900px ) {
+    .buttonGroup {
+        width: 95%;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+
+}
+
+
+@media only screen  /*Mobile Larger */
+and (min-width:900px ) {
+    .buttonGroup {
+        width: 60%;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+
+}

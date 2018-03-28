@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './styles.css';
-
-import {Card,  CardText, CardMedia} from 'material-ui/Card';
+import {Card,  CardText} from 'material-ui/Card';
 
 
 const styles = {
@@ -35,16 +34,12 @@ class About extends Component {
       window.scrollTo(0, 0);
     }
  
-
-  
     render() {
       return (
         <div className="aboutPage">
          <div className="banner">
          <h1> ABOUT </h1>
          </div>
-       
-       
      
           <Card className="aboutCard" style={styles.aboutCard}>
               <div className="aboutPic">
@@ -77,7 +72,6 @@ class About extends Component {
                     <div className="singleToolbox"> <i className="devicon-sass-original toolboxIcon"></i>SASS</div>
               </CardText>
 
-
               <CardText className="aboutToolbox" style = {styles.aboutToolbox}>
                 <div className="singleToolbox"> <i className="devicon-php-plain toolboxIcon"></i>PHP</div>
                 <div className="singleToolbox"> <i className="devicon-wordpress-plain toolboxIcon"></i> Wordpress</div>
@@ -95,8 +89,7 @@ class About extends Component {
               </CardText>
               
           </Card>
-     
-         
+
           </div>
 
       );

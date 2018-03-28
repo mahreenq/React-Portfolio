@@ -9,7 +9,8 @@
     "Design and build a real-time social media mobile application. Users should be able to register, publish posts, and submit invites to events.",
     "result":
     "The mobile application is built using React Native. Firebase is the platform used for authentication and storing data. Profile images are rendered using Gravatar and Icons are rendered using Ionicons. Users can 'like' posts and 'RSVP' to events. Logic is added so only the author of posts and events can delete them.",
-    "tools": ["React Native", "Firebase", "JSX", "CSS"]
+    "tools": ["React Native", "Firebase", "JSX", "CSS"],
+    "stack" : "react"
   },
     {
       "id": 2,
@@ -21,7 +22,8 @@
       "Design and build a real-time JavaScript web application in a team environment.  The social media app should allow students and staff at RED Academy to share their ideas/posts.  Registered members should be able to edit their profile, post ideas and vote on ideas.",
       "result":
       "The web application was built using Meteor as a platform. React was used as the rendering library.  Data was stored using MongoDB as the database. Group performance was optimized by using Git for version control and collaboration. Hosted on Heroku.",
-      "tools": ["React.js", "Meteor", "MongoDB", "JSX", "CSS"]
+      "tools": ["React.js", "Meteor", "MongoDB", "JSX", "CSS"],
+      "stack" : "react"
     },
     {
         "id": 3,
@@ -33,7 +35,8 @@
         "Use provided designs to build a cross-platform (iOS and Android) app for an upcoming conference.  Through the app, users should be able to see details of the schedule, individual sessions, and speakers.  Users should also be able to save individual sessions under a favourite tab for easy access.",
         "result":
         "React Native was used to build the app.  All data was fetched through Firebase API endpoints.  Redux is applied to manage state and Realm is used as a database to store ‘favourite’ sessions.",
-        "tools": ["React Native","CSS", "Realm"]
+        "tools": ["React Native","CSS", "Realm"],
+        "stack" : "react"
       },
       {
         "id": 4,
@@ -45,7 +48,8 @@
         "Design and build a fictional sci-fi web application where users of different occupations are able to log in, post their encounter with an ‘alien type’ and also view other member’s encounters.",
         "result":
         "This was my first web application built using React. GET and POST HTTP requests are made using Axios. Hosted on Heroku.",
-        "tools": ["JSX", "CSS3", "React.js"]
+        "tools": ["JSX", "CSS3", "React.js"],
+        "stack" : "react"
       },
       {
         "id": 5,
@@ -57,7 +61,8 @@
         "Build a custom WordPress theme for a client seeking a user-friendly design to manage content. PIECE OF MINE Arts presents multidisciplinary works created by artists of the African Diaspora, as well as youth programming that explores African Canadian narratives.",
         "result":
         "Used PHP to build Wordpress theme. Custom plugin was built to manage custom post types and taxonomies. Research was done to ensure the best-suited plugins were used per client need (Smart Slider, Custom Field Suite, Contact Form 7, Instagram Feed, NextGEN Gallery).",
-        "tools": ["WordPress", "PHP", "HTML", "SCSS", "Gulp"]
+        "tools": ["WordPress", "PHP", "HTML", "SCSS", "Gulp"],
+        "stack" : "wordpress"
       },
       {
         "id": 6,
@@ -67,7 +72,8 @@
         "pictures": ["https://image.ibb.co/eGQLqn/Screen_Shot_2018_02_19_at_12_35_47_AM.png", "https://image.ibb.co/c4Ufqn/Screen_Shot_2018_02_19_at_12_36_09_AM.png" ],
         "ask":"Code a simple HTML game using HTML & JavaScript!",
         "result":"I decided to try something new and code my first HTML game! I played around with the canvas element, used HTML, SCSS and Javascript.",
-        "tools": ["HTML","JavaScript", "SCSS"]
+        "tools": ["HTML","JavaScript", "SCSS"],
+        "stack" : "other"
       },
       {
         "id": 7,
@@ -79,7 +85,8 @@
         "Use provided designs to build a page that displays a dropdown with news categories.  Upon selection of a category, feed from New York Times should display. Page should be responsive for mobile, tablet and desktop.",
         "result":
         " Used Ajax request to fetch data from the NYT Top Stories endpoint. Media queries added to make page responsive. ",
-        "tools": ["Javascript", "JQuery", "HTML5", "SCSS"]
+        "tools": ["Javascript", "JQuery", "HTML5", "SCSS"],
+        "stack" : "other"
       },
       {
         "id": 8,
@@ -91,7 +98,8 @@
         "In collaboration with UI/UX team, build a Wordpress theme for a client wishing to re-vamp their website and make it more user-friendly.",
         "result":
          "Used PHP to build Wordpress theme in a team environment. Research was done to ensure the best-suited plugins were used. Group performance was optimized by using Git for version control and collaboration. I was given the role of Client Lead which included additional duties of being in constant communication with the client and presenting the final product.",
-        "tools": [ "WordPress", "PHP", "HTML", "SCSS", "Gulp"]
+        "tools": [ "WordPress", "PHP", "HTML", "SCSS", "Gulp"],
+        "stack" : "wordpress"
       },
       {
         "id": 9,
@@ -103,7 +111,8 @@
         "Build a simple landing page for a fictional clothing retailer.  Page should be built using mobile-first approach and should be responsive for tablet and desktop widths.",
         "result":
          "This was my first coded page. It was built using HTML5, SCSS, JavaScript and Jquery.  BXSlider plugin was added to slide through different clothing items.  Simple Javascript/JQuery function used to create a counter on shopping cart.",
-        "tools": [ "HTML", "SCSS", "Gulp", "JavaScript", "JQuery"]
+        "tools": [ "HTML", "SCSS", "Gulp", "JavaScript", "JQuery"],
+        "stack" : "other"
       }
 
   ]

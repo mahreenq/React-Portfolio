@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { BrowserRouter, HashRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 // import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
@@ -15,9 +15,6 @@ import Resume from './components/Resume';
 import NotFound from './components/NotFound';
 
 
-
-
-
 class App extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
@@ -26,7 +23,7 @@ class App extends Component {
     return (
       <BrowserRouter>
          <Provider store={store}>
-        <MuiThemeProvider >
+          <MuiThemeProvider >
             <Layout>
               <Switch>
                 <Route exact path="/" component={Home} />
@@ -36,9 +33,8 @@ class App extends Component {
                 <Route component={NotFound} />
               </Switch>
             </Layout>
-            
-            </MuiThemeProvider>
-            </Provider>
+          </MuiThemeProvider>
+          </Provider>
       </BrowserRouter>
     );
   }

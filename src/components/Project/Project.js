@@ -1,7 +1,6 @@
 import React from 'react';
 import './styles.css';
 import {Card, CardActions, CardTitle, CardText} from 'material-ui/Card';
-import { Link } from 'react-router-dom';
 
 import  FontAwesome from 'react-fontawesome';
 import { Carousel } from 'react-responsive-carousel';
@@ -13,29 +12,21 @@ const Project = ({project}) => {
   
   const flexGroup = project.id % 2 === 0 ? "row" : "rowReverse";  
   const pictures = project.pictures;
-  console.log(pictures);
 
       return (
 
         <div className = "singleProject">
-                    
 
           <Card className = "projectCard" style={style.projectCard}>
-         
            
               <CardTitle title={project.title} titleStyle={style.title} subtitleStyle={style.tools} subtitle={project.tools.map((tool,i) => { return  `${tool}${ project.tools.length - 1 === i ? '' : ',   '}` } ) } />
-                
               
             <div className={flexGroup}>
                   
-
-
                     <Carousel className="carouseldiv" autoPlay>
-                    {pictures.map((picture)=>{    return  <div class="selectedImageDiv"> <img  class="selectedImagePic" src={picture} /> </div>
+                    {pictures.map((picture)=>{return  <div className="selectedImageDiv" key={picture}> <img alt="screenshot of project"  className="selectedImagePic" src={picture} /> </div>
                       })}
                     </Carousel>
-
-
 
                 <div className="descPortfolioDiv">
                     <CardText className="description" style={style.description}>
@@ -51,10 +42,7 @@ const Project = ({project}) => {
                         {project.url  ? <a target="_blank" style={style.linkButton} href={project.url}> <FontAwesome name=' fa-mouse-pointer' /> </a> : null }
                       </CardActions>
                   </div>
-
-             </div>     
-
-
+             </div>   
           </Card>
 
   </div>
