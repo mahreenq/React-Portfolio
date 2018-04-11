@@ -16,7 +16,7 @@
       "id": 2,
       "title": "RED Life",
       "url": "https://reddir.herokuapp.com/",
-      "git_url": "https://github.com/jeanmaried/RED-Book",
+      "git_url": "https://github.com/mahreenq/RED-Life",
       "pictures": ["https://preview.ibb.co/kMUMjb/Screenshot_2017_11_30_12_30_44.png", "https://image.ibb.co/n11Z4b/Screenshot_2017_11_30_12_31_53.png", "https://image.ibb.co/kvFGHw/Screenshot_2017_11_30_12_21_23.png"],
       "ask":
       "Design and build a real-time JavaScript web application in a team environment.  The social media app should allow students and staff at RED Academy to share their ideas/posts.  Registered members should be able to edit their profile, post ideas and vote on ideas.",
@@ -92,7 +92,7 @@
         "id": 8,
         "title": "GTA Toothfairy",
         "url": "http://www.gtatoothfairy.com/",
-        "git_url": "https://github.com/jeanmaried/Tooth-fairy-wordpress-site",
+        "git_url": "https://github.com/mahreenq/Tooth-fairy-wordpress-site",
         "pictures": ["https://preview.ibb.co/kG0Qub/Screenshot_2017_11_30_14_12_25.png", "https://preview.ibb.co/dUbyEb/Screenshot_2017_11_30_14_12_54.png", "https://preview.ibb.co/ctrb0G/Screenshot_2017_11_30_14_12_06.png" ],
         "ask":
         "In collaboration with UI/UX team, build a Wordpress theme for a client wishing to re-vamp their website and make it more user-friendly.",
