@@ -1,3 +1,11 @@
+# Personal Portfolio - React
+
+Portfolio web application showcasing projects. The app is coded using React.js. Redux is used to manage state. 
+
+<img src ="./src/assets/portfolio_showcase.png" width="80%"/>
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
