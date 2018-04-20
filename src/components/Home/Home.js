@@ -13,6 +13,7 @@ class Home extends Component {
         <div className="homePage">
               <h1 className="nameHomePage">Mahreen Qureshi</h1>
               <h4 className="wdHomePage"> Web Developer </h4>
+              <p className="hide"> I am a web developer enthusiastic about building innovative products. Through various ventures, I discovered a passion for coding (especially in React &amp; React Native), building creative designs and watching them come to life.  </p>
 
         </div>
       );

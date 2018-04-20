@@ -25,6 +25,9 @@
     justify-content: center;
     flex-direction: column;
 }
+.hide{
+    visibility: none;
+}
 
 
 @media only screen
