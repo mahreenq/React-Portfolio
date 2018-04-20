@@ -25,8 +25,8 @@
     justify-content: center;
     flex-direction: column;
 }
-.hide{
-    visibility: none;
+.hidePara{
+    display: none;
 }
 
 
