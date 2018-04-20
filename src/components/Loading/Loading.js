@@ -1,28 +1,22 @@
-import React, { Component } from 'react';
-import './styles.css';
-import CircularProgress from 'material-ui/CircularProgress';
-
+import React, { Component } from "react";
+import "./styles.css";
+import CircularProgress from "material-ui/CircularProgress";
 
 class Loading extends Component {
-    componentDidMount() {
-      window.scrollTo(0, 0);
-    }
-  
-  
-    render() {
-      return (
-        <div className="loadingContainer">
-          <div className="">
-          <CircularProgress size={150} thickness={10} />
-          </div>
-          <div className="">
-         
-          </div>
-        </div>
-      );
-    }
+  componentDidMount() {
+    window.scrollTo(0, 0);
   }
-  
 
-  
-  export default Loading;
+  render() {
+    return (
+      <div className="loadingContainer">
+        <div className="">
+          <CircularProgress size={150} thickness={10} />
+        </div>
+        <div className="" />
+      </div>
+    );
+  }
+}
+
+export default Loading;
