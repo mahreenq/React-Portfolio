@@ -3,6 +3,6 @@ import ProjectsReducer from "../redux/modules/projects";
 import SelectedReducer from "../redux/modules/selected";
 
 export default combineReducers({
-  projects: ProjectsReducer,
+  // projects: ProjectsReducer,
   selectedStackName: SelectedReducer
 });
