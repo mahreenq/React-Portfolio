@@ -4,9 +4,14 @@ import Project from "../Project";
 import * as selectedAction from "../../redux/modules/selected";
 import RaisedButton from "material-ui/RaisedButton";
 import { connect } from "react-redux";
+import projectData from "./project-data";
 
 class ProjectList extends Component {
   render() {
+    // projectData.map(project => {
+    //   console.log(project.title);
+    // });
+
     const projectsData = this.props.projectsData;
     const selectedStack = this.props.selectedStackName;
     const btn = {
@@ -16,8 +21,7 @@ class ProjectList extends Component {
     return (
       <div>
         <div className="projectsBanner">
-          {" "}
-          <h1> SHOWCASE </h1>{" "}
+          <h1> SHOWCASE </h1>
         </div>
         <div className="projectCardList">
           <div className="buttonGroup">
@@ -49,13 +53,21 @@ class ProjectList extends Component {
             />
           </div>
 
-          {projectsData.map(project => {
+          {projectData.map(project => {
             return selectedStack === "" ? (
               <Project key={project.id} project={project} />
             ) : project.stack === selectedStack ? (
               <Project key={project.id} project={project} />
             ) : null;
           })}
+
+          {/* {projectsData.map(project => {
+            return selectedStack === "" ? (
+              <Project key={project.id} project={project} />
+            ) : project.stack === selectedStack ? (
+              <Project key={project.id} project={project} />
+            ) : null;
+          })} */}
         </div>
       </div>
     );
