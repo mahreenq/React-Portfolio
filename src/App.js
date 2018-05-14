@@ -13,6 +13,7 @@ import About from "./components/About";
 import Projects from "./containers/Projects";
 import Resume from "./components/Resume";
 import NotFound from "./components/NotFound";
+import ProjectList from "./components/ProjectList";
 
 class App extends Component {
   componentDidMount() {

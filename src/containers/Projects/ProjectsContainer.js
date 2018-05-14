@@ -10,7 +10,7 @@ class ProjectsContainer extends Component {
   }
   render() {
     const loading = this.props.isLoading;
-    console.log(loading);
+    // console.log(loading);
 
     return loading === false ? (
       <Projects projectsData={this.props.projectsData} isLoading={loading} />

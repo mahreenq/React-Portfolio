@@ -1,3 +1,4 @@
+// import projectData from './project-data'
 const projectsURL = "project-data.json";
 
 //types of actions to modify our state
