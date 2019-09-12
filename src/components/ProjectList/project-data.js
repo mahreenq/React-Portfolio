@@ -172,7 +172,7 @@ const projectData = [
   {
     "id": 11,
     "title": "MLB Stats",
-    "url": null,
+    "url": "https://stupefied-elion-b93638.netlify.com/",
     "git_url":
       "https://github.com/mahreenq/mlb-stats",
     "pictures": [
