@@ -47,14 +47,11 @@ class About extends Component {
                 innovative products.
               </CardText>
               <CardText className="aboutText" style={styles.aboutText}>
-                In order to deliver wholesome services, I have combined my
-                business relations expertise with coding skills to understand
-                client and stakeholder needs.
+                Within my career, I am most interested in working with clients to support
+                products that contribute to technological advancements.
               </CardText>
               <CardText className="aboutText" style={styles.aboutText}>
-                Through various ventures, I discovered a passion for coding,
-                especially in React, building creative designs and watching them
-                come to life.
+                Through various ventures, I discovered a passion for data analytics, coding and all things digital.
               </CardText>
             </div>
           </div>

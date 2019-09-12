@@ -19,6 +19,3 @@ class Layout extends Component {
 
 export default withRouter(Layout);
 
-// {this.props.location.pathname == '/' ? null : <Header />}
-// {this.props.children}
-// {this.props.location.pathname == '/' ? null : <Footer />}

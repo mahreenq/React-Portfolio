@@ -12,7 +12,7 @@ class ProjectList extends Component {
     //   console.log(project.title);
     // });
 
-    const projectsData = this.props.projectsData;
+    //const projectsData = this.props.projectsData;
     const selectedStack = this.props.selectedStackName;
     const btn = {
       margin: 5
@@ -59,7 +59,7 @@ class ProjectList extends Component {
             ) : project.stack === selectedStack ? (
               <Project key={project.id} project={project} />
             ) : null;
-          })}
+          }).reverse()}
 
           {/* {projectsData.map(project => {
             return selectedStack === "" ? (

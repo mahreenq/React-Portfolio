@@ -15,8 +15,8 @@ class ProjectsContainer extends Component {
     return loading === false ? (
       <Projects projectsData={this.props.projectsData} isLoading={loading} />
     ) : (
-      <Loading />
-    );
+        <Loading />
+      );
   }
 }
 

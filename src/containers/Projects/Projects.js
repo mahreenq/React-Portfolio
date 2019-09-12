@@ -8,8 +8,8 @@ const Projects = ({ projectsData, isLoading }) => {
   return projectsData.length > 0 ? (
     <ProjectList projectsData={projectsData} isLoading={isLoading} />
   ) : (
-    <Loading />
-  );
+      <Loading />
+    );
 };
 
 export default Projects;
